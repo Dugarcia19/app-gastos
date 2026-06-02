@@ -1,0 +1,21 @@
+# Arquivos do SO
+.DS_Store
+Thumbs.db
+
+# Node modules (se usar npm futuramente)
+node_modules/
+package-lock.json
+
+# Cache
+.cache/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup
+*.bak
+~*

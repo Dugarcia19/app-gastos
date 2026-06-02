@@ -1,0 +1,165 @@
+================================================================================
+                    📊 CONTROLE DE GASTOS - PLANILHA
+================================================================================
+
+COMO USAR:
+
+1. ABRIR A APLICAÇÃO
+   - Abra o arquivo "index.html" em qualquer navegador
+   - Nenhuma instalação necessária
+   - Funciona offline (sem internet)
+
+2. ADICIONAR TRANSAÇÃO
+   - Digite a Descrição (ex: "Salário", "Almoço")
+   - Digite o Valor (ex: 150.50)
+   - Escolha o Tipo: "Entrada" (dinheiro recebido) ou "Saída" (gasto)
+   - Clique em "Adicionar"
+
+3. VISUALIZAR DADOS
+   - Uma tabela mostra todas as transações
+   - Verde = Entrada de dinheiro
+   - Vermelho = Saída (gasto)
+   - O Saldo total é mostrado no topo
+
+4. EDITAR TRANSAÇÃO
+   - Clique no botão "✏️" (lápis) na linha da transação
+   - Os dados aparecem no formulário acima
+   - Faça as alterações
+   - Clique em "Atualizar"
+
+5. EXCLUIR TRANSAÇÃO
+   - Clique no botão "🗑️" (lixo) na linha da transação
+   - A transação será removida imediatamente
+
+6. EXPORTAR DADOS (Backup/Compartilhar)
+   - Clique em "📥 Exportar CSV"
+   - Um arquivo será baixado com todos os dados
+   - Pode abrir em Excel, Google Sheets, etc
+   - Use para compartilhar com outras pessoas
+
+7. IMPORTAR DADOS
+   - Clique em "📤 Importar CSV"
+   - Selecione um arquivo CSV baixado anteriormente
+   - Os dados serão adicionados ao seu registro
+
+8. LIMPAR TUDO
+   - Clique em "🗑️ Limpar Tudo"
+   - Vai pedir confirmação
+   - Todos os dados serão removidos (cuidado!)
+
+================================================================================
+
+COMPARTILHAR COM OUTRAS PESSOAS:
+
+Opção 1 - Arquivo HTML Direto:
+  - Copie os 3 arquivos: index.html, style.css, script.js
+  - Compacte em um .zip
+  - Compartilhe via email, WhatsApp, nuvem
+  - Outro pode abrir o index.html
+
+Opção 2 - Servidor Online Gratuito:
+  - Envie para GitHub Pages, Netlify ou Vercel
+  - Compartilhe o link
+  - Cada pessoa terá seus próprios dados
+
+Opção 3 - Sincronizar Dados:
+  - Uma pessoa exporta os dados (CSV)
+  - Compartilha o CSV
+  - Outra pessoa importa o CSV
+
+================================================================================
+
+FORMATO DO ARQUIVO CSV (para referência):
+
+Data,Descrição,Tipo,Valor
+01/06/2024,Salário,entrada,5000.00
+05/06/2024,Supermercado,saida,250.50
+07/06/2024,Conta Luz,saida,150.00
+10/06/2024,Freelance,entrada,1000.00
+
+Importante:
+- Tipo deve ser: "entrada" ou "saida" (minúscula)
+- Valor com ponto para decimal (100.50, não 100,50)
+- Data no formato: DD/MM/YYYY
+
+================================================================================
+
+DICAS IMPORTANTES:
+
+✅ SEGURANÇA:
+   - Os dados ficam APENAS no seu navegador
+   - Ninguém vê seus dados
+   - Não precisa de senha
+   - Não precisa de internet
+
+✅ BACKUP:
+   - Exporte seus dados toda semana
+   - Guarde os arquivos CSV em pastas seguras
+   - Assim não perde nada se limpar o cache
+
+✅ MÚLTIPLOS DISPOSITIVOS:
+   - Firefox tem dados diferentes do Chrome
+   - Chrome do PC é diferente do Chrome do celular
+   - Use import/export para sincronizar
+
+✅ LIMPEZA:
+   - Se limpar cache do navegador, dados podem sumir
+   - Sempre faça backup antes disso
+   - Selecione bem se vai limpar!
+
+================================================================================
+
+LIMITAÇÕES:
+
+- Dados armazenados no navegador (limite ~5-10MB)
+- Funciona com milhares de transações
+- Cada navegador tem seu próprio espaço
+- Histórico limpo = dados limpos (sempre faça backup)
+
+BENEFÍCIOS:
+
+✅ Totalmente gratuito
+✅ Sem login necessário
+✅ Sem publicidade
+✅ Sem dados pessoais coletados
+✅ Funciona offline
+✅ Rápido e leve
+✅ Responsivo (celular/tablet/desktop)
+
+================================================================================
+
+PROBLEMAS COMUNS:
+
+P: Perdi meus dados!
+R: Se salvou em CSV, importe. Senão, infelizmente foram deletados.
+   Sempre exporte regularmente!
+
+P: Não consigo importar o CSV
+R: Certifique que:
+   - É um arquivo .csv
+   - Tem cabeçalho: Data,Descrição,Tipo,Valor
+   - Tipo é "entrada" ou "saida"
+   - Valores com ponto, não vírgula
+
+P: Números aparecem errados
+R: Formato BRL é automático (R$ 1.234,56)
+   Valores com . (ponto) na entrada são corretos
+
+P: Posso usar em dois computadores?
+R: Sim! Exporte no PC 1, importe no PC 2
+   Depois exporte do PC 2, importe de volta no PC 1 para sincronizar
+
+================================================================================
+
+CONTATO / FEEDBACK:
+
+Se tiver dúvidas, lembre-se:
+- É uma aplicação web simples
+- Funciona 100% no navegador
+- Não há servidor para contatar
+
+Para melhorias futuras, anote as sugestões!
+
+================================================================================
+
+Aproveite! 💚
