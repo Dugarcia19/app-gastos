@@ -19,13 +19,12 @@ jobs:
           rsync -av --exclude='.git' --exclude='.github' --exclude='.github/**' --exclude='*.md' --exclude='*.yml' --exclude='*.yaml' --exclude='*.toml' --exclude='*.txt' ./ site/
           touch site/.nojekyll
 
-      - name: Configure Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: site
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          user_name: github-actions
+          user_email: github-actions@github.com
+          allow_empty_commit: true
